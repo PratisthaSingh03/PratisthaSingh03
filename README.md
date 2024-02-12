@@ -1,6 +1,6 @@
 - Hi, I’m @PratisthaSingh03
 - I’m currently learning python and trying my hands at DataScience
-- I'm an fitness enthusiast
+- I'm a fitness enthusiast
 - How to reach me:
 - instagram: @shutupprats
 - mail: pratisthasingh.official@gmail.com
