@@ -7,7 +7,7 @@ The dataset contains measurements for three species of penguins (Adelie, Chinstr
 
 **Download Link:** [Penguin Dataset on Kaggle](https://www.kaggle.com/datasets/parulpandey/penguin-dataset)
 
-## Steps
+## Steps:
 
 ### Step 1: Import Modules
 Import libraries for data manipulation (pandas, numpy), visualization (matplotlib, seaborn), and machine learning (scikit-learn).
