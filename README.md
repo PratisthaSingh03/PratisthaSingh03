@@ -1,12 +1,62 @@
-Hey!
-I am Pratistha!!
+# Penguin Dataset Analysis - Classification 🐧💥
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/pratistha-singh-16830922b) 
+## Dataset Information
+The dataset contains measurements for three species of penguins (Adelie, Chinstrap, and Gentoo). The dataset includes various features such as bill length, bill depth, flipper length, and body mass, which can be used to classify the species of the penguins.
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=PratisthaSingh03&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=PratisthaSingh03&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=PratisthaSingh03&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+**Note:** Ensure the dataset is properly cleaned and prepared for analysis.
+
+**Download Link:** [Penguin Dataset on Kaggle](https://www.kaggle.com/datasets/parulpandey/penguin-dataset)
+
+## Steps
+
+### Step 1: Import Modules
+Import libraries for data manipulation (pandas, numpy), visualization (matplotlib, seaborn), and machine learning (scikit-learn).
+
+### Step 2: Load Dataset and Derive Insights
+Load the Penguin dataset.
+
+Display the first few rows to understand the structure.
+
+Get dataset information (data types, null values).
+
+Generate a statistical summary (mean, median, standard deviation).
+
+### Step 3: Preprocess the Dataset (Handling Null Values)
+Check for and remove any null values to ensure a clean dataset.
+
+### Step 4: Exploratory Data Analysis (Histogram and Scatter Plot)
+Create histograms for feature distribution.
+
+Generate pair plots to visualize relationships between features, categorized by species.
+
+### Step 5: Correlation Matrix (Heat Map)
+Compute and visualize the correlation matrix using a heat map to identify relationships between features.
+
+### Step 6: Label Encoder
+Convert categorical species labels into numeric form using a label encoder for machine learning compatibility.
+
+### Step 7: Model Training
+
+Split data into features and target, then into training and testing sets.
+
+Train models (Logistic Regression, K-Nearest Neighbors, Decision Tree).
+
+Predict species on test data and evaluate model accuracy.
+
+Compare accuracies to determine the best-performing model.
+
+### Libraries
+pandas
+
+matplotlib
+
+seaborn
+
+scikit-learn
+
+### Algorithms
+Logistic Regression
+Decision Tree
+K-Nearest Neighbors 
+
+
